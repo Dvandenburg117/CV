@@ -1,0 +1,99 @@
+body{
+    background-color: #3DB2FF;
+    text-align: center;
+    margin: 0px;
+}
+/* key to css syntax =  selector {property : value; } 
+    selector = what tag is being modified
+    property = what property of that tag is being modified
+    value = how is this property being modified
+
+    css hierarchy in terms of how to define things to alter:
+        tag - defined barebones
+        classes - defined with a '.'
+        id - defined with a '#'
+
+    all html elements will have padding, border, and margin layers to add to the
+    size of the element itself
+*/
+
+hr {
+    border-color: black;
+    border-style: dotted none none;
+    border-width: 5px;
+    height: 0px;   
+}
+
+.invis{
+    border-color: #3DB2FF;
+}
+
+h1{
+    font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'STIX Two Math', sans-serif;
+}
+
+h2{
+    color: #FA8072;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif
+}
+
+h3{
+    color: #FA8072;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.top_section {
+    background-color: #B8DFD8;
+    color:  #FA8072;
+    padding-top: 150px;
+}
+
+.bottom_cloud{
+    position: absolute;
+    margin: 0px 0px 0px 100px;
+}
+
+.top_cloud{
+    position: relative;
+    margin: 0px 1000px 0px 0px;
+}
+
+.croppedicons{
+    height: 15%;
+    width: 15%;
+}
+
+.skillicons{
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+td{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+}
+
+.skillexample{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+   
+}
+
+.skills{
+    padding-bottom: 100px;
+}
+
