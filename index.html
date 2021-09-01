@@ -9,82 +9,100 @@
     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <title>Devin's Personal Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=STIX+Two+Math&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
 </head>
+
 
 <body>
     <!-- em for italics, can use 'strong' to italics within italics-->
     <!-- h1 to h6 for headers of varying font size-->
     <!-- br for invisible line break, hr for visible line break, use size to increase font-->
     <!-- p for parapragh, ideal for large blocks of text-->
-    <img src="https://pbs.twimg.com/profile_images/875691533772652544/LXjExkML_400x400.jpg" alt="Devin's Profile Picture">
-    <h1>Devin Vandenburg</h1>
-    <p><em>Aspiring software developer and graduate of NJIT.</em></p>
+    
+    <div class="top_section">
+        <img class="top_cloud" src="images/cloud.png" alt="cloud image">
+        <h1>Welcome! I'm Devin, </h1>
+        <h2><em> An aspiring web developer.</em></h2>
+        <img src="images/mountain.png" alt="mountain image">
+        <img class="bottom_cloud "src="images/cloud.png" alt="cloud image">
+    </div>
     <br>
-    <p>Graduated with a Bachelors Degree in Computer Science and is passionate about programming. 
-        Outside of computer science, I have worked in a pharmacy as well as as an instructor at a tech camp.
-        Experienced with C# and game design, and in training to become a seasoned web developer. 
-    </p>
-    <hr>
 
-    <h3>Education</h3>
-    <p>Bloomfield High School - Graduated 2016</p>
-    <p>New Jersey Institute of Technology - Graduated w. Bachelors 2020</p>
-    <hr>
-    <!-- lists and hyperlinks-->
-    <h3>Games I Drool Over</h3>
-    <ul>
-        <li><a href="https://www.pathofexile.com/" >Path of Exile</a></li>
-        <li><a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">Counter-Strike</a></li>
-        <li><a href="https://borderlands.com/en-US/">Borderlands</a></li>
-        <li><a href="https://us.diablo3.com/en-us/">Diablo</a></li>
-    </ul>
-    <hr>
+    <div class="middle section">
+        <img class="croppedicons" src="images/me.png" alt="devin image">
+        <p> I graduated with a Bachelors Degree in Computer Science in 2020.
+            Outside of computer science, I have worked as a supervisor at Specialty Rx as well as as an instructor at iD Tech.
+            I am experienced with C# and unity game development, and I am learning web development  to expand my skillset!
+        </p>
+        <hr>
+    
+        <h3>Education</h3>
+        <img class="croppedicons" src="images/graduation.png" alt="gradcap image">
+        <p>Bloomfield High School - Graduated 2016</p>
+        <p>New Jersey Institute of Technology - Graduated w. Bachelors 2020</p>
+        <hr>
+        <!-- lists and hyperlinks-->
+        <img class="croppedicons" src="images/game-console.png" alt="game image">
+        <img class="croppedicons" src="images/volleyball.png" alt="volleyball image">
+        <h3>Hobbies</h3>
+        <ol>
+            <li>Video Games</li>
+            <li>Programming</li>
+            <li>Volleyball</li>
+            <li>Manga/Anime</li>
+        </ol>
+        <hr>
+        <!-- skills galore -->
+        <div class="skills">
+            <img class="croppedicons" src="images/pencil.png" alt="pencil image">
+            <h3>Skills</h3>
+            <div class="skillexample">
+                <img class="skillicons" src="images/game-development.png" alt="gamedev image">
+                <h4>Game Development</h4>
+                <p>Towards the end of college I became very interested in game development. With an oculus rift,
+                    I learned how to navigate unity and even cooperated in a project that brought 3d buildings to
+                    life using unity's game engine.
+                </p>
+            </div>
+            <hr class="invis">
 
-    <h3>Hobbies</h3>
-    <ol>
-        <li>Video Games</li>
-        <li>Programming</li>
-        <li>Volleyball</li>
-        <li>Manga/Anime</li>
-    </ol>
-    <hr>
-    <!-- tables galore-->
-    <h3>Skills</h3>
-    <table>
-        <thead>
-            <tr>
-                <td>Skill in Question</td>
-                <td>Proficiency of Skill</td>
-            </tr>
-        </thead>
-        <tr>
-            <td>
-                Unity Game Development
-            </td>
-            <td>4 out of 5</td>
-        </tr>
-        <tr>
-            <td>
-                Python
-            </td>
-            <td>3 out of 5</td>
-        </tr>
-        <tr>
-            <td>
-                Java
-            </td>
-            <td>2 out of 5</td>
-        </tr>
-        <tr>
-            <td>
-                Web Development
-            </td>
-            <td>1 out of 5 (WiP)</td>
-        </tr>
-    </table>
-    <hr>
+            <div class="skillexample">
+                <img class="skillicons" src="images/web-programming.png" alt="webdev image">
+                <h4>Web development</h4>
+                <p>With 2020 and large majority of 2021 being derailed by covid-19, i decided to use the extra time 
+                    i was home to learn an web development. Full stack development will give me a wide range of skills 
+                    and im looking forward to continuing my web-dev journey! 
+                </p>
+            </div>     
+            <hr class="invis">
 
-    <h3><a href="contact.html">Contact Me</a></h3>
+            <div class="skillexample">
+                <img class="skillicons" src="images/lecture.png" alt="teach image">
+                <h4>Teaching</h4>
+                <p>I spent 2 summers working at ID Tech which gave me the opportunity to teach students various
+                    topics like robotics, python, java, and even scratch. At my pharmacy job, i was a supervisor 
+                    and one of my responsibilities was teaching new employees the ropes. 
+                </p>
+            </div>
+            
+        </div>
+        
+
+        <img class="croppedicons" src="images/clipboard.png" alt="contact image">
+        <h3>Current/Previous Projects</h3>
+        <p>Want to to see what i'm working on/have worked on previously? Check out my github <a href="https://github.com/Dvandenburg117?tab=repositories"> HERE.</a></p>
+        <hr>
+    </div>
+
+    <div class="bottom section">
+        <img class="croppedicons" src="images/contact.png" alt="contact image">
+        <p>Want to collaborate on a project or just talk about games and volleyball?</p>
+        <h3><a href="contact.html">Contact Me</a></h3>
+    </div>
 </body>
 
 </html>
