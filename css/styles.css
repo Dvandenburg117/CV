@@ -137,6 +137,14 @@ li{
     padding-bottom: 100px;
 }
 
+.githublink{
+    text-decoration: none;
+}
+
+.githublink:hover{
+    color: #FA8072;
+}
+
 .bottom-section{
     padding-top: 50px;
     padding-bottom: 50px;
